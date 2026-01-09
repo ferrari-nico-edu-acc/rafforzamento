@@ -8,7 +8,7 @@ body {
     gap: 10px;
 }
 
-.lamp {
+#lamp {
     border: solid;
     border-radius: 100%;
     border-color: black;
@@ -18,7 +18,7 @@ body {
     height: 200px;
 }
 
-.on {
+#lamp.on {
     background-color: yellow;
     box-shadow: 0 0 50px yellow;
 }
