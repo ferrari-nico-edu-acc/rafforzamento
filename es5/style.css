@@ -1,0 +1,13 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#output {
+    display: none;
+    margin-top: 10px;
+}
