@@ -8,12 +8,7 @@ body {
     gap: 10px;
 }
 
-.on {
-    background-color: yellow !important;
-    box-shadow: 0 0 50px yellow;
-}
-
-#lamp {
+.lamp {
     border: solid;
     border-radius: 100%;
     border-color: black;
@@ -21,4 +16,9 @@ body {
     background-color: gray;
     width: 200px;
     height: 200px;
+}
+
+.on {
+    background-color: yellow;
+    box-shadow: 0 0 50px yellow;
 }

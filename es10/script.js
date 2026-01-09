@@ -1,5 +1,5 @@
 /** @type {HTMLDivElement} */
-const lamp = document.querySelector("#lamp");
+const lamp = document.querySelector(".lamp");
 /** @type {HTMLButtonElement} */
 const toggle = document.querySelector("#toggle");
 
