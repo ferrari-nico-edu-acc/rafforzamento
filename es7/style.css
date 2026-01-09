@@ -9,4 +9,12 @@
 
 #result {
     margin-top: 10px;
+    margin-bottom: 0;
+}
+
+#budget_alert {
+    margin-top: 10px;
+    display: none;
+    font-size: 30px;
+    color: red;
 }
