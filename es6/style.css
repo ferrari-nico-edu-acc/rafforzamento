@@ -1,0 +1,31 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#output {
+    display: block;
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 70px;
+    font-weight: bolder;
+    transition: background-color .5s;
+}
+
+#output.match {
+    background-color: lime;
+}
+
+#output.no_match {
+    background-color: red;
+}
