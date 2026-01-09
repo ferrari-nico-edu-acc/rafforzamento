@@ -1,0 +1,29 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#balls_container {
+    display: block;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 10px;
+}
+
+#balls_container > div {
+    width: 50px;
+    height: 50px;
+    background-color: lime;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    border-radius: 100%;
+}
