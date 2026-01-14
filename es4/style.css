@@ -1,0 +1,7 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#list > li {
+    width: fit-content;
+}
